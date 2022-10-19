@@ -8,5 +8,6 @@
 </head>
 <body>
     <h2>Esto es un ejemplo</h2>
+    <h2>Mi compañero se llama paco</h2>
 </body>
 </html>
