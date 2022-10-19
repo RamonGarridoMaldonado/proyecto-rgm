@@ -2,8 +2,12 @@
 
 $nombre = $_GET['nombre'];
 $numero = $_GET['numero'];
+$numero2 = $_GET['numero2'];
 
-for ($i=0;i<$numero;$i++) {
+$suma = $numero+$numero2;
+echo $suma;
+
+for ($i=0;$i<$numero;$i++) {
     echo ($i+1)." ".$nombre;
 }
 
