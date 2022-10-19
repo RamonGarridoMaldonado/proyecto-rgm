@@ -34,6 +34,8 @@ for ($i;$i<10;$i++) {
             <input type="text" name="apellidos">
             <input type="submit" value="Enviar"> 
         </div>
+        <br/>
+        <label>Esto es una prueba</label>
     </form>
 </body>
 </html>
