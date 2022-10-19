@@ -8,6 +8,11 @@ $apellidos = $_GET['apellidos'];
 
 echo "Hola ".$nombre." ".$apellidos;
 
+// Cambio por Ramón Garrido Maldonado (Dueño y señor de este proyecto)
+for ($i;$i<10;$i++) {
+    echo $i;
+}
+
 ?>
 
 <!DOCTYPE html>
