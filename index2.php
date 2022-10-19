@@ -1,7 +1,7 @@
 <?php
 
 echo "Cambio hecho por Ramón Garrido Maldonado al principio del fichero";
-echo "Hola Paco";
+echo "Hola Ramon";
 
 $nombre = $_GET['nombre'];
 $apellidos = $_GET['apellidos'];
