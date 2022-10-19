@@ -1,3 +1,14 @@
+<?php
+
+$nombre = $_GET['nombre'];
+$numero = $_GET['numero'];
+
+for ($i=0;i<$numero;$i++) {
+    echo ($i+1)." ".$nombre;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +18,16 @@
     <title>Ejemplo</title>
 </head>
 <body>
-    <h2>Esto es un ejemplo</h2>
-    <h2>Mi compañero se llama paco</h2>
+    <form action="index.php" method="post">
+        <div>
+            <label>Introduzca su nombre</label>
+            <input type="text" name="nombre">
+        </div>
+        <div>
+            <label>Introduzca el numero que de veces que quiere que aparezca</label>
+            <input type="text" name="numero">
+            <input type="submit" value="Enviar"> 
+        </div>
+    </form>
 </body>
 </html>
